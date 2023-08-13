@@ -2,8 +2,7 @@ import React, { useContext, useState } from "react";
 import Column from "../column/Column";
 import ColumnPopup from "../column/Popup/Popup";
 import { providerContext } from "../../Context/DataContext";
-import "./Board.css"; // Import your custom CSS file
-
+import "./Board.css";
 const Board = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 

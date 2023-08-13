@@ -17,7 +17,7 @@ const NavBar = () => {
 
   const { data, isDarkMode, setIsDarkMode } = useContext(providerContext);
   const toggleDarkMode = () => {
-    setIsDarkMode(prevMode => !prevMode); // Toggle dark mode state
+    setIsDarkMode(prevMode => !prevMode); 
   };
 
 

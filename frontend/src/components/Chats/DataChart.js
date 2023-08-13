@@ -33,7 +33,7 @@ const options = {
   },
   scales: {
     y: {
-      beginAtZero: true, // Start the Y-axis at zero
+      beginAtZero: true, 
       suggestedMax: 10,
     },
   },
@@ -52,7 +52,7 @@ const style = {
 const DataChart = () => {
   const { data, cards, isDarkMode } = useContext(providerContext);
 
-  // console.log(data, "sadasdsadas", cards )
+  // console.log("title name", data, "card", cards )
   // console.log("dataName", data[0])
 
   const statusName = data.map((value) => {
