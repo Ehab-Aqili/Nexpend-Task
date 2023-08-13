@@ -1,0 +1,24 @@
+.back__ground__card{
+    background-color: #fff ;
+    cursor: pointer;
+}
+.back__ground__card:hover{
+    background-color: #e1dfdf ;
+    cursor: pointer;
+}
+
+.dark__mode__card{
+    background-color: #2d3034;
+    color:white
+    
+}
+.dark__mode__card a {
+    color: antiquewhite !important;
+}
+.dark__mode__card :hover {
+    color: black !important;
+}
+.dark{
+    background-color: black;
+    color: white;
+}

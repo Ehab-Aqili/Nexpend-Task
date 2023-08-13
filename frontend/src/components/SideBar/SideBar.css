@@ -1,0 +1,15 @@
+.dark__mode{
+    background-color: #2d3034;
+    color:white
+    
+}
+.dark__mode a {
+    color: antiquewhite !important;
+}
+.dark__mode a:hover {
+    color: black !important;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
